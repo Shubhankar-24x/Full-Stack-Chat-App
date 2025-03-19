@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend
-  namespace: fullstack-chatapp
+  namespace: chatapp
 spec:
   selector:
     app: frontend

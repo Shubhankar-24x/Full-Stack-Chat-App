@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mongodb-pvc
-  namespace: fullstack-chatapp
+  namespace: chatapp
 spec:
   accessModes:
     - ReadWriteOnce
